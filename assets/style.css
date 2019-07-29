@@ -1,0 +1,28 @@
+.carLogo {
+  width: 100px;
+}
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  border-style:solid;
+  justify-content: space-between;
+}
+.topNav{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.middleHeader {
+  display: flex;
+  justify-content: center;
+  border-style:solid;
+}
+h1 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+}
