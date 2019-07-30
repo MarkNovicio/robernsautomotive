@@ -1,3 +1,6 @@
+.topNav ul {
+  flex-direction: column;
+}
 .carLogo {
   width: 100px;
 }
