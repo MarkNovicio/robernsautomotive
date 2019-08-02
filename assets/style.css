@@ -1,6 +1,8 @@
-<<<<<<< HEAD
-.topNav ul {
-  flex-direction: column;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 15px;
 }
 .carLogo {
   width: 100px;
@@ -15,7 +17,6 @@
 .topNav{
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
   font-family: 'Darker Grotesque', sans-serif;
 }
 .middleHeader {
@@ -55,5 +56,5 @@ h2 {
 }
 ul {
   list-style-type: none;
->>>>>>> ebf5c3204cab3d6524fbcc83e6edc74c0ae2fb3d
+
 }
