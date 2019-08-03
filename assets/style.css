@@ -99,6 +99,7 @@ ul {
   }
   h1{
     text-align: center;
+    font-size: 17px; 
   }
   .topHeader ul {
     display: flex;
