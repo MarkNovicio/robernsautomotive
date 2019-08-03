@@ -34,6 +34,7 @@ text-decoration: none;
   font-family: 'Darker Grotesque', sans-serif;
   flex-direction: column;
   justify-content:space-around;
+  text-align: center;
 
 
 }
@@ -142,3 +143,9 @@ ul {
     align-items: center;
     justify-content: center;
   }
+  .googlepic{
+    border: 10px solid #514d4e;
+    padding: 1px;
+    max-width: 150%;
+    display: flex;
+    justify-content: center;
