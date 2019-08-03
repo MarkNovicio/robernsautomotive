@@ -5,16 +5,17 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.topHeader ul:hover{
+.topHeader a:hover{
   cursor: pointer;
 }
-.topHeader ul {
+.topHeader a {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 padding-right: 15px;
 color: white;
 font-family: "EB Garamond", serif;
+text-decoration: none;
 }
 .carLogo {
   width: 130px;
@@ -30,8 +31,10 @@ font-family: "EB Garamond", serif;
 }
 .topNav{
   display: flex;
-  justify-content: flex-end;
   font-family: 'Darker Grotesque', sans-serif;
+  flex-direction: column;
+  justify-content:space-around;
+
 
 }
 .middleHeader {
@@ -46,6 +49,36 @@ h1 {
   font-family: 'EB Garamond', serif;
   font-size: 45px;
   color: white;
+}
+.middleHeaderlocation p{
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size:40px;
+  text-align: center;
+  background-color: #514d4e;
+  padding: 41px;
+  margin-right:210px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  margin-left: 210px;
+}
+
+.googlelocation {
+  display: flex;
+  justify-content: center;
+}
+
+.googlepic{
+  border: 10px solid #514d4e;
+  padding: 1px;
+}
+.middleHeaderlocation h2 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size:60px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightslategrey;
 }
 h2 {
   font-family: 'EB Garamond', serif;
@@ -84,6 +117,9 @@ ul {
   list-style-type: none;
 
 }
+.topHeader a{
+  list-style: none;
+}
 
 @media screen and (max-width: 880px) {
 
@@ -99,7 +135,7 @@ ul {
   }
   h1{
     text-align: center;
-    font-size: 17px; 
+    font-size: 17px;
   }
   .topHeader ul {
     display: flex;
