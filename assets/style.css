@@ -60,6 +60,7 @@ h2 {
   align-items: center;
   border: inset;
   background-color: white;
+  border-radius: 100px;
 }
 
 .nav-buttons a {
