@@ -1,3 +1,11 @@
+body{
+  background-image: url("../images/thunderbird.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -5,14 +13,16 @@ ul {
   padding-left: 15px;
 }
 .carLogo {
-  width: 100px;
+  width: 130px;
 }
 .topHeader {
   display: flex;
   flex-direction: row;
-  border-style:solid;
+  border-style:outset;
   justify-content: space-between;
-  background-color: #e3dbdb;
+  background-color: black;
+  margin: -13px;
+  border-width: 15px;
 }
 .topNav{
   display: flex;
@@ -23,31 +33,40 @@ ul {
   display: flex;
   justify-content: center;
   border-style:solid;
-  background-color: #e3dbdb;
+  margin: -13px;
+  border-style: inset;
+  border-width: inherit;
 }
 h1 {
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 35px;
-  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  font-size: 45px;
+  color: white;
 }
 h2 {
-  font-family: 'Darker Grotesque', sans-serif;
-=======
+  font-family: 'EB Garamond', serif;
+  color: white;
+  text-decoration: underline;
+}
 .nav-list {
   display: flex;
   justify-content: space-evenly;
+  padding: 0px;
+
 }
 
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border: inset;
+  background-color: white;
 }
 
 .nav-buttons a {
   color: #555;
   text-decoration: none;
   font-size: 1.5em;
+
 }
 
 .svg-image-nav {
@@ -56,5 +75,8 @@ h2 {
 }
 ul {
   list-style-type: none;
+
+}
+.nav-list {
 
 }
