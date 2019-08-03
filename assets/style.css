@@ -149,3 +149,21 @@ ul {
     max-width: 150%;
     display: flex;
     justify-content: center;
+  }
+    .middleHeaderlocation h2 {
+      font-family: 'EB Garamond', serif;
+      color: white;
+      font-size:40px;
+      text-align: center;
+      text-decoration: none;
+      background-color: lightslategrey;
+  }
+  .middleHeaderlocation p{
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size:35px;
+    text-align: center;
+    background-color: #514d4e;
+    display: flex;
+    justify-content: center;
+  }
