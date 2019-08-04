@@ -51,36 +51,6 @@ h1 {
   font-size: 45px;
   color: white;
 }
-.middleHeaderlocation p{
-  font-family: 'EB Garamond', serif;
-  color: white;
-  font-size:40px;
-  text-align: center;
-  background-color: #514d4e;
-  padding: 41px;
-  margin-right:210px;
-  margin-bottom: 10px;
-  margin-top:10px;
-  margin-left: 210px;
-}
-
-.googlelocation {
-  display: flex;
-  justify-content: center;
-}
-
-.googlepic{
-  border: 10px solid #514d4e;
-  padding: 1px;
-}
-.middleHeaderlocation h2 {
-  font-family: 'EB Garamond', serif;
-  color: white;
-  font-size:60px;
-  text-align: center;
-  text-decoration: none;
-  background-color: lightslategrey;
-}
 h2 {
   font-family: 'EB Garamond', serif;
   color: white;
@@ -93,7 +63,6 @@ h2 {
 
 
 }
-
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -121,6 +90,45 @@ ul {
 .topHeader a{
   list-style: none;
 }
+
+/*Location Page*/
+.middleHeaderlocation p{
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size:40px;
+  text-align: center;
+  background-color: #514d4e;
+  padding: 26px;
+  margin-right:210px;
+  margin-bottom: 10px;
+  margin-top:30px;
+  margin-left: 210px;
+  border-style: inset;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.googlelocation {
+  display: flex;
+  justify-content: center;
+}
+
+.googlepic{
+  border: 10px solid #514d4e;
+  padding: 1px;
+  max-width: 55%;
+  border-style: inset;
+  border-width: 5px
+}
+.middleHeaderlocation h2 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+/*Responsive Mobile               */
+
 
 @media screen and (max-width: 880px) {
 
@@ -156,19 +164,20 @@ ul {
     .middleHeaderlocation h2 {
       font-family: 'EB Garamond', serif;
       color: white;
-      font-size:40px;
+      font-size:70px;
       text-align: center;
       text-decoration: none;
-      background-color: unset;
+
   }
-  .middleHeaderlocation p{
+  .middleHeaderlocation p {
     font-family: 'EB Garamond', serif;
     color: white;
-    font-size:15px;
+    font-size:20px;
     text-align: center;
     background-color: #514d4e;
     display: flex;
     justify-content: center;
     margin: 0px;
     padding: 7px;
+
   }
