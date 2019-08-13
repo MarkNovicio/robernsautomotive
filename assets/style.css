@@ -5,16 +5,17 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.topHeader ul:hover{
+.topHeader a:hover{
   cursor: pointer;
 }
-.topHeader ul {
+.topHeader a {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 padding-right: 15px;
 color: white;
 font-family: "EB Garamond", serif;
+text-decoration: none;
 }
 .carLogo {
   width: 130px;
@@ -30,8 +31,11 @@ font-family: "EB Garamond", serif;
 }
 .topNav{
   display: flex;
-  justify-content: flex-end;
   font-family: 'Darker Grotesque', sans-serif;
+  flex-direction: column;
+  justify-content:space-around;
+  text-align: center;
+
 
 }
 .middleHeader {
@@ -59,7 +63,6 @@ h2 {
 
 
 }
-
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -84,6 +87,48 @@ ul {
   list-style-type: none;
 
 }
+.topHeader a{
+  list-style: none;
+}
+
+/*Location Page*/
+.middleHeaderlocation p{
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size:40px;
+  text-align: center;
+  background-color: #514d4e;
+  padding: 26px;
+  margin-right:210px;
+  margin-bottom: 10px;
+  margin-top:30px;
+  margin-left: 210px;
+  border-style: inset;
+  border-style: inset;
+  border-width: 5px;
+}
+
+.googlelocation {
+  display: flex;
+  justify-content: center;
+}
+
+.googlepic{
+  border: 10px solid #514d4e;
+  padding: 1px;
+  max-width: 55%;
+  border-style: inset;
+  border-width: 5px
+}
+.middleHeaderlocation h2 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+/*Responsive Mobile               */
+
 
 @media screen and (max-width: 880px) {
 
@@ -91,7 +136,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 55px;
+    margin: 10px;
   }
   .middleHeader h2{
     text-align: center;
@@ -99,9 +144,40 @@ ul {
   }
   h1{
     text-align: center;
+    font-size: 17px;
   }
   .topHeader ul {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .googlepic{
+    border: 10px solid #514d4e;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    margin-top: 10px;
+  }
+    .middleHeaderlocation h2 {
+      font-family: 'EB Garamond', serif;
+      color: white;
+      font-size:70px;
+      text-align: center;
+      text-decoration: none;
+
+  }
+  .middleHeaderlocation p {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size:20px;
+    text-align: center;
+    background-color: #514d4e;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 7px;
+
   }
