@@ -159,7 +159,30 @@ ul {
   text-decoration: none;
 }
 
+/* Servies Page*/
 
+.services-info {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.heading-services {
+  text-align: center;
+}
+
+/*the shop page*/
+.shop-photos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.shop-photos img {
+  border: inset;
+  margin: 210px;
+  background-color: black;
+  border-width: 10px;
+}
 /*Responsive Mobile               */
 
 
