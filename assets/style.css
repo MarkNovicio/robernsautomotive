@@ -207,3 +207,9 @@ ul {
     padding: 7px;
 
   }
+.nav-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
