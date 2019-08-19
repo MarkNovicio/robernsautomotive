@@ -73,15 +73,22 @@ h2 {
   border: inset;
   background-color: white;
   border-radius: 100px;
+  font-family: "Times New Roman",sans-serif;
+  color:#555555;
+  font-size: 24px;
 }
 
 .nav-buttons a {
   color: #555;
   text-decoration: none;
   font-size: 1.5em;
+  font-size: 24px;
 
 }
-
+.nav-buttons:hover {
+  cursor: pointer;
+  background-color: #cdcdcd;
+}
 .svg-image-nav {
   width: 25%;
   height: 65%;
