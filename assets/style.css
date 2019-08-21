@@ -333,6 +333,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   margin:100px;
+  margin-top: 20px;
 }
 .nav-buttons{
   margin-top:20px;
