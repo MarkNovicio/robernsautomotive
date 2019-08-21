@@ -338,3 +338,9 @@ ul {
   margin-top:20px;
   text-align: center;
 }
+.middleHeader {
+  margin: -20px;
+}
+.lowerNav {
+  margin: -20px;
+}
