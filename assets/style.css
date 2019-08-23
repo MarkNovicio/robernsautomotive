@@ -1,10 +1,13 @@
+
 body{
   background-image: url("../images/thunderbird.jpg");
   background-repeat: no-repeat;
-  background-position: right top;
   background-attachment: fixed;
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
+
 .topHeader a:hover{
   cursor: pointer;
 }
@@ -152,7 +155,44 @@ ul {
   text-decoration: none;
 }
 
+.services-section{
+  display: flex;
+  flex-direction: row;
+}
+.services-section ul{
+  display: flex;
+  flex-direction: column;
+}
+.services-section li {
+  color: #fff;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  width: 100%;
+}
+/*
+#map-container {
+  height: 80%;
+  width: 80%;
+  border: 1px solid #000;
+}
+*/
+#about-us-text{
+  color: #fff;
+  font-size: 1.1em;
+  margin:0 20%;
+}
 
+footer {
+  background: #fff;
+  position:fixed;
+  height: 5%;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  text-align: center;
+}
 /*Responsive Mobile               */
 
 
