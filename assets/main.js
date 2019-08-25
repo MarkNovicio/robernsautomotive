@@ -1,4 +1,4 @@
-/*var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -30,7 +30,7 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
-*/
+
 let section = {
   header: document.querySelector(".topHeader"),
   nav: document.querySelector(".lowerNav")
@@ -46,7 +46,9 @@ let navMenu = {
 let elements = {
   aboutUs: document.querySelector(".about-us"),
   servicesSection: document.querySelector(".services-info"),
-  location: document.querySelector(".middleHeaderlocation")
+  location: document.querySelector(".middleHeaderlocation"),
+  locationImage: document.querySelector(".googlelocation"),
+  contact: document.querySelector(".contactus")
 };
 
 //end targeted elements
@@ -76,6 +78,7 @@ navMenu.services.addEventListener("click", function() {
   console.log("this works");
   hide(elements.aboutUs);
   hide(elements.location);
+  hide(elements.contact);
   showServices(elements.servicesSection);
 
   console.log("this doesn't work");
@@ -83,6 +86,8 @@ navMenu.services.addEventListener("click", function() {
 
 navMenu.about.addEventListener("click", function() {
   hide(elements.servicesSection);
+  hide(elements.location);
+  hide(elements.contact);
   showAbout(elements.aboutUs);
 });
 
@@ -90,7 +95,17 @@ navMenu.location.addEventListener("click", function() {
   console.log("works");
   hide(elements.aboutUs);
   hide(elements.servicesSection);
+  hide(elements.contact);
   showAbout(elements.location);
+  showAbout(elements.locationImage);
+});
+
+navMenu.contact.addEventListener("click", function() {
+  hide(elements.aboutUs);
+  hide(elements.servicesSection);
+  showAbout(elements.contact);
+  hide(elements.location);
+  hide(elements.locationImage);
 });
 /*
 navMenu.services.addEventListener("click", function() {
@@ -108,4 +123,6 @@ navMenu.services.addEventListener("click", function() {
 window.onload = function() {
   elements.servicesSection.style.display = "none";
   elements.location.style.display = "none";
+  elements.contact.style.display = "none";
+  elements.locationImage.style.display = "none";
 };
