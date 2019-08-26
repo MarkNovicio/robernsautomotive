@@ -1,4 +1,4 @@
-/*var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -76,20 +76,22 @@ navMenu.services.addEventListener("click", function() {
   console.log("this works");
   hide(elements.aboutUs);
   hide(elements.location);
-  showServices(elements.servicesSection);
+  showServices(elements.servicesInfo);
 
   console.log("this doesn't work");
 });
 
 navMenu.about.addEventListener("click", function() {
-  hide(elements.servicesSection);
+  hide(elements.servicesInfo);
+  hide(elements.location);
+  hide(element.contactus);
   showAbout(elements.aboutUs);
 });
 
 navMenu.location.addEventListener("click", function() {
   console.log("works");
   hide(elements.aboutUs);
-  hide(elements.servicesSection);
+  hide(elements.servicesInfo);
   showAbout(elements.location);
 });
 /*
