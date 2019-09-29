@@ -37,6 +37,7 @@ h1 {
 }
 .middleHeader {
   display: flex;
+  background-color: rgba(173, 173, 173, 0.7);
   justify-content: center;
   border-style:solid;
   margin: -13px;
