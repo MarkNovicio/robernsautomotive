@@ -78,38 +78,24 @@ navMenu.services.addEventListener("click", function() {
   console.log("this works");
   hide(elements.aboutUs);
   hide(elements.location);
-<<<<<<< HEAD
-  showServices(elements.servicesInfo);
-=======
   hide(elements.contact);
   showServices(elements.servicesSection);
->>>>>>> 6ab97eea76e7872c36d497b5e425c6ba45ca5fa5
 
   console.log("this doesn't work");
 });
 
 navMenu.about.addEventListener("click", function() {
-<<<<<<< HEAD
-  hide(elements.servicesInfo);
-  hide(elements.location);
-  hide(element.contactus);
-=======
   hide(elements.servicesSection);
   hide(elements.location);
   hide(elements.contact);
->>>>>>> 6ab97eea76e7872c36d497b5e425c6ba45ca5fa5
   showAbout(elements.aboutUs);
 });
 
 navMenu.location.addEventListener("click", function() {
   console.log("works");
   hide(elements.aboutUs);
-<<<<<<< HEAD
-  hide(elements.servicesInfo);
-=======
   hide(elements.servicesSection);
   hide(elements.contact);
->>>>>>> 6ab97eea76e7872c36d497b5e425c6ba45ca5fa5
   showAbout(elements.location);
   showAbout(elements.locationImage);
 });

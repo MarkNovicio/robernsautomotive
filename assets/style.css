@@ -5,21 +5,11 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.topHeader a:hover{
-  cursor: pointer;
-}
+
 h1 {
   text-align: center;
 }
-.topHeader a {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding-right: 15px;
-color: white;
-font-family: "EB Garamond", serif;
-text-decoration: none;
-}
+
 .carLogo {
   width: 130px;
 }
@@ -30,7 +20,12 @@ text-decoration: none;
   background-color: black;
   margin: -13px;
   border-width: 15px;
-  justify-content: center;
+  justify-content: space-evenly;
+
+}
+.topHeader .logos-header svg {
+  display: flex;
+  flex-direction: column-reverse;
 }
 .topNav{
   display: flex;
@@ -38,7 +33,6 @@ text-decoration: none;
   flex-direction: column;
   justify-content:space-around;
   text-align: center;
-
 
 }
 .middleHeader {
@@ -64,8 +58,8 @@ h2 {
   justify-content: space-evenly;
   padding: 0px;
 
-
 }
+
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -76,6 +70,7 @@ h2 {
   font-family: "Times New Roman",sans-serif;
   color:#555555;
   font-size: 24px;
+  padding: 20px;
 }
 
 .nav-buttons a {
