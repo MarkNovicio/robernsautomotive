@@ -126,3 +126,4 @@ window.onload = function() {
   elements.contact.style.display = "none";
   elements.locationImage.style.display = "none";
 };
+// contact us page //
