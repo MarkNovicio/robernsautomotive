@@ -15,22 +15,16 @@ h1 {
 }
 .topHeader {
   display: flex;
-  flex-direction: row;
   border-style:outset;
   background-color: black;
   margin: -13px;
   border-width: 15px;
+  flex-direction: row;
   justify-content: space-evenly;
-
 }
-#fb-logo{
-  display: flex;
-  flex-direction: column-reverse;
-}
-#gmail-logo{
-  display: flex;
-  flex-direction: column-reverse;
-
+.topHeader img  {
+  padding: 250px;
+  margin: 40px;
 }
 .topNav{
   display: flex;
