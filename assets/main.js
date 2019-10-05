@@ -127,3 +127,48 @@ window.onload = function() {
   elements.locationImage.style.display = "none";
 };
 // contact us page //
+
+//API//
+
+var wizardme = document.querySelector('.googlelocation');
+
+document.getElementsByClassName(".googlepic").addEventListener("click", function(event) {
+
+var xhr = new XMLHttpRequest();
+
+// Setup our listener to process request state changes
+xhr.onreadystatechange = function() {
+	// Only run if the request is complete
+	if (xhr.readyState !== 4) return;
+	// Process our return data
+	if (xhr.status >= 200 && xhr.status < 300) {
+
+    data = JSON.parse(xhr.responseText);
+    console.log(data);
+
+	} else {
+		// This will run when it's not
+		console.log('The request failed!');
+	}
+
+};
+
+xhr.open('GET', 'http://api.ipstack.com/134.201.250.155?access_key=f2e7e5895e1b4545f7f5444dc3a1ac9d');
+xhr.send();
+
+}, false);
+
+var xhr = new XMLHttpRequest();
+var data = xhr.responseText;
+
+const renderLocation = (resp, container) => {
+  const locationS = document.createElement("div");
+  resp.articles.forEach(c => {
+    article.innerHTML = `<h2>${c.title}</h2>
+    <p>${c.author}</p>
+    <p>${c.description}</p>
+    <a href=${c.url} target="_blank">Article Link</a>
+    `;
+    container.append(article);
+  })
+}
