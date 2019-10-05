@@ -5,26 +5,32 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-
+.topHeader a:hover{
+  cursor: pointer;
+}
 h1 {
   text-align: center;
 }
-
+.topHeader a {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-right: 15px;
+color: white;
+font-family: "EB Garamond", serif;
+text-decoration: none;
+}
 .carLogo {
   width: 130px;
 }
 .topHeader {
   display: flex;
+  flex-direction: row;
   border-style:outset;
   background-color: black;
   margin: -13px;
   border-width: 15px;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.topHeader img  {
-  padding: 250px;
-  margin: 40px;
+  justify-content: center;
 }
 .topNav{
   display: flex;
@@ -33,10 +39,10 @@ h1 {
   justify-content:space-around;
   text-align: center;
 
+
 }
 .middleHeader {
   display: flex;
-  background-color: rgba(173, 173, 173, 0.7);
   justify-content: center;
   border-style:solid;
   margin: -13px;
@@ -58,8 +64,8 @@ h2 {
   justify-content: space-evenly;
   padding: 0px;
 
-}
 
+}
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -70,7 +76,6 @@ h2 {
   font-family: "Times New Roman",sans-serif;
   color:#555555;
   font-size: 24px;
-  padding: 20px;
 }
 
 .nav-buttons a {
@@ -87,6 +92,13 @@ h2 {
 .svg-image-nav {
   width: 25%;
   height: 65%;
+}
+ul {
+  list-style-type: none;
+
+}
+.topHeader a{
+  list-style: none;
 }
 .wordingIndex {
   font-family: 'EB Garamond', serif;
@@ -149,7 +161,7 @@ h2 {
 
 /* Servies Page*/
 
-.servicesInfo {
+.services-info {
   text-align: center;
   color: white;
   font-size: 20px;
