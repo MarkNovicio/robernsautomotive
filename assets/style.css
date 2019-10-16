@@ -4,27 +4,43 @@ body{
   background-position: right top;
   background-attachment: fixed;
   background-size: cover;
+  margin: 0;
 }
-
+.topHeader a:hover{
+  cursor: pointer;
+}
 h1 {
   text-align: center;
 }
-
+.topHeader a {
+display: flex;
+justify-content: space-between;
+padding-right: 15px;
+color: white;
+font-family: "EB Garamond", serif;
+text-decoration: none;
+}
 .carLogo {
   width: 130px;
 }
 .topHeader {
-  display: flex;
-  border-style:outset;
-  background-color: black;
-  margin: -13px;
-  border-width: 15px;
+/*  display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  margins: -13px;
+  */
+  border-style:outset;
+  background-color: rgba(0,0,0, .7);
+  border-width: 15px; 
 }
-.topHeader img  {
-  padding: 250px;
-  margin: 40px;
+.header-container{
+  display: flex;
+  justify-content: center;
+}
+.contact-media{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .topNav{
   display: flex;
@@ -33,10 +49,16 @@ h1 {
   justify-content:space-around;
   text-align: center;
 
+
 }
+/*
+.contact-media{
+  display: flex;
+  justify-content: right;
+  align-content: right;
+}*/
 .middleHeader {
   display: flex;
-  background-color: rgba(173, 173, 173, 0.7);
   justify-content: center;
   border-style:solid;
   margin: -13px;
@@ -58,8 +80,8 @@ h2 {
   justify-content: space-evenly;
   padding: 0px;
 
-}
 
+}
 .nav-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -70,7 +92,6 @@ h2 {
   font-family: "Times New Roman",sans-serif;
   color:#555555;
   font-size: 24px;
-  padding: 20px;
 }
 
 .nav-buttons a {
@@ -87,6 +108,13 @@ h2 {
 .svg-image-nav {
   width: 25%;
   height: 65%;
+}
+ul {
+  list-style-type: none;
+
+}
+.topHeader a{
+  list-style: none;
 }
 .wordingIndex {
   font-family: 'EB Garamond', serif;
@@ -132,6 +160,17 @@ h2 {
   justify-content: center;
 }
 
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.map-container {
+  height:600px;
+  width:600px;
+  border: 2px solid #fff;
+}
 .googlepic{
   border: 10px solid #514d4e;
   padding: 1px;
@@ -149,7 +188,7 @@ h2 {
 
 /* Servies Page*/
 
-.servicesInfo {
+.services-info {
   text-align: center;
   color: white;
   font-size: 20px;
@@ -241,6 +280,7 @@ h2 {
 .active, .dot:hover {
   background-color: #717171;
 }
+
 
 /* Fading animation -the shop*/
 .fade {
