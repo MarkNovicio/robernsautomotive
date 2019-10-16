@@ -9,6 +9,9 @@ body{
 .topHeader a:hover{
   cursor: pointer;
 }
+.topHeader a:hover{
+  cursor: pointer;
+}
 h1 {
   text-align: center;
 }
